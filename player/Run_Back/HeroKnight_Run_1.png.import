@@ -2,8 +2,13 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD:player/Run_left/HeroKnight_Run_0.png.import
+uid="uid://d4ce0ipwvk3nm"
+path="res://.godot/imported/HeroKnight_Run_0.png-6c79b43b1bae25afa5ef89ed03511189.ctex"
+=======
 uid="uid://cy6bni34jys8y"
 path="res://.godot/imported/HeroKnight_Run_1.png-0877c709d541605a3a65a36a94d94d87.ctex"
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf:player/Run_Back/HeroKnight_Run_1.png.import
 metadata={
 "vram_texture": false
 }

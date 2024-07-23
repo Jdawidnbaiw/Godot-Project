@@ -1,2 +1,7 @@
+<<<<<<< HEAD
+=======
 res://levels/level.tscn
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf
 res://player/player.tscn
+res://levels/level.tscn
+res://player/player.gd
