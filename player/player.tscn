@@ -102,26 +102,10 @@
 [ext_resource type="Texture2D" uid="uid://ila53cy4n43p" path="res://player/Run/HeroKnight_Run_8.png" id="99_1efrm"]
 [ext_resource type="Texture2D" uid="uid://b40h8qi6tyvbm" path="res://player/Run/HeroKnight_Run_9.png" id="100_86bfq"]
 [ext_resource type="Texture2D" uid="uid://d3553noeltkmq" path="res://player/WallSlide/HeroKnight_Slide_0.png" id="101_e4ik5"]
-<<<<<<< HEAD
-[ext_resource type="Texture2D" uid="uid://71wag3cuyd4d" path="res://player/Run_left/HeroKnight_Run_1.png" id="102_bsqbl"]
-[ext_resource type="Texture2D" uid="uid://bd7wp0td8rwg7" path="res://player/WallSlide/HeroKnight_Slide_1.png" id="102_rer58"]
-[ext_resource type="Texture2D" uid="uid://bfuq46gm6xvwq" path="res://player/WallSlide/HeroKnight_Slide_2.png" id="103_i5bgn"]
-[ext_resource type="Texture2D" uid="uid://rtdff43alyfo" path="res://player/Run_left/HeroKnight_Run_2.png" id="103_yyfjq"]
-[ext_resource type="Texture2D" uid="uid://o5mc7qri28xi" path="res://player/WallSlide/HeroKnight_Slide_3.png" id="104_iqdcn"]
-[ext_resource type="Texture2D" uid="uid://b5nwql1dbt2xv" path="res://player/Run_left/HeroKnight_Run_3.png" id="104_ndopb"]
-[ext_resource type="Texture2D" uid="uid://c4hkl5pw2kcad" path="res://player/Run_left/HeroKnight_Run_4.png" id="105_3th27"]
-[ext_resource type="Texture2D" uid="uid://srhc5wr8mrea" path="res://player/WallSlide/HeroKnight_Slide_4.png" id="105_c0umv"]
-[ext_resource type="Texture2D" uid="uid://cwwxemcywrmfs" path="res://player/Run_left/HeroKnight_Run_5.png" id="106_drs7s"]
-[ext_resource type="Texture2D" uid="uid://cuusop5q71nir" path="res://player/Run_left/HeroKnight_Run_6.png" id="107_phj8q"]
-[ext_resource type="Texture2D" uid="uid://dvps5brevx665" path="res://player/Run_left/HeroKnight_Run_7.png" id="108_ybxy4"]
-[ext_resource type="Texture2D" uid="uid://1qhwxsuwoh" path="res://player/Run_left/HeroKnight_Run_8.png" id="109_pgne7"]
-[ext_resource type="Texture2D" uid="uid://b0sao6wsmgdge" path="res://player/Run_left/HeroKnight_Run_9.png" id="110_0fslb"]
-=======
 [ext_resource type="Texture2D" uid="uid://bd7wp0td8rwg7" path="res://player/WallSlide/HeroKnight_Slide_1.png" id="102_rer58"]
 [ext_resource type="Texture2D" uid="uid://bfuq46gm6xvwq" path="res://player/WallSlide/HeroKnight_Slide_2.png" id="103_i5bgn"]
 [ext_resource type="Texture2D" uid="uid://o5mc7qri28xi" path="res://player/WallSlide/HeroKnight_Slide_3.png" id="104_iqdcn"]
 [ext_resource type="Texture2D" uid="uid://srhc5wr8mrea" path="res://player/WallSlide/HeroKnight_Slide_4.png" id="105_c0umv"]
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_h1was"]
 animations = [{
@@ -438,6 +422,11 @@ animations = [{
 "name": &"ledgegrab",
 "speed": 10.0
 }, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("82_ssokf")
@@ -507,41 +496,6 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-<<<<<<< HEAD
-"texture": ExtResource("102_bsqbl")
-}, {
-"duration": 1.0,
-"texture": ExtResource("103_yyfjq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("104_ndopb")
-}, {
-"duration": 1.0,
-"texture": ExtResource("105_3th27")
-}, {
-"duration": 1.0,
-"texture": ExtResource("106_drs7s")
-}, {
-"duration": 1.0,
-"texture": ExtResource("107_phj8q")
-}, {
-"duration": 1.0,
-"texture": ExtResource("108_ybxy4")
-}, {
-"duration": 1.0,
-"texture": ExtResource("109_pgne7")
-}, {
-"duration": 1.0,
-"texture": ExtResource("110_0fslb")
-}],
-"loop": true,
-"name": &"run_left",
-"speed": 5.0
-}, {
-"frames": [{
-"duration": 1.0,
-=======
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 "texture": ExtResource("101_e4ik5")
 }, {
 "duration": 1.0,
@@ -708,11 +662,7 @@ tracks/1/keys = {
 [sub_resource type="Animation" id="Animation_nnsq6"]
 resource_name = "jump"
 length = 0.3
-<<<<<<< HEAD
-loop_mode = 2
-=======
 loop_mode = 1
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -740,10 +690,6 @@ tracks/1/keys = {
 
 [sub_resource type="Animation" id="Animation_kmw4l"]
 resource_name = "run"
-<<<<<<< HEAD
-loop_mode = 1
-=======
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -769,38 +715,6 @@ tracks/1/keys = {
 "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 }
 
-<<<<<<< HEAD
-[sub_resource type="Animation" id="Animation_p12sj"]
-resource_name = "run_left"
-length = 0.9
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:animation")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [&"run_left"]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("AnimatedSprite2D:frame")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
-}
-
-=======
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_l7hdy"]
 _data = {
 "RESET": SubResource("Animation_hwyrt"),
@@ -809,12 +723,7 @@ _data = {
 "attack3": SubResource("Animation_4leaw"),
 "idle": SubResource("Animation_2dju3"),
 "jump": SubResource("Animation_nnsq6"),
-<<<<<<< HEAD
-"run": SubResource("Animation_kmw4l"),
-"run_left": SubResource("Animation_p12sj")
-=======
 "run": SubResource("Animation_kmw4l")
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 }
 
 [sub_resource type="AnimationNodeTimeScale" id="AnimationNodeTimeScale_vj3qi"]
@@ -825,31 +734,10 @@ animation = &"idle"
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_uruhd"]
 animation = &"idle"
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_l3wrn"]
-animation = &"idle"
-
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_tuofr"]
 animation = &"idle"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_4ibto"]
-animation = &"idle"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_x58fe"]
-animation = &"run_left"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_b241a"]
-animation = &"RESET"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ymobb"]
-animation = &"RESET"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_yxt2a"]
-animation = &"idle"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_qcdxp"]
-animation = &"idle"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_j8r61"]
 animation = &"idle"
 
 [sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_wvwwe"]
@@ -861,27 +749,9 @@ blend_point_2/node = SubResource("AnimationNodeAnimation_tuofr")
 blend_point_2/pos = Vector2(0, -1)
 blend_point_3/node = SubResource("AnimationNodeAnimation_4ibto")
 blend_point_3/pos = Vector2(0, 1)
-blend_point_4/node = SubResource("AnimationNodeAnimation_x58fe")
-blend_point_4/pos = Vector2(-1, 0)
-blend_point_5/node = SubResource("AnimationNodeAnimation_b241a")
-blend_point_5/pos = Vector2(0, 1)
-blend_point_6/node = SubResource("AnimationNodeAnimation_ymobb")
-blend_point_6/pos = Vector2(0, -1)
-blend_point_7/node = SubResource("AnimationNodeAnimation_yxt2a")
-blend_point_7/pos = Vector2(-1, 0)
-blend_point_8/node = SubResource("AnimationNodeAnimation_qcdxp")
-blend_point_8/pos = Vector2(0, 1)
-blend_point_9/node = SubResource("AnimationNodeAnimation_j8r61")
-blend_point_9/pos = Vector2(1, 0)
-blend_point_10/node = SubResource("AnimationNodeAnimation_l3wrn")
-blend_point_10/pos = Vector2(0, -1)
 blend_mode = 1
 
 [sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_rlaym"]
-<<<<<<< HEAD
-graph_offset = Vector2(5, 77)
-=======
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 nodes/TimeScale/node = SubResource("AnimationNodeTimeScale_vj3qi")
 nodes/TimeScale/position = Vector2(569, 270)
 nodes/idle_bs2d/node = SubResource("AnimationNodeBlendSpace2D_wvwwe")
@@ -900,40 +770,10 @@ animation = &"run"
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_remp5"]
 animation = &"run"
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_s7y3p"]
-animation = &"idle"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_lg4eq"]
-animation = &"run_left"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_7rr3p"]
-animation = &"RESET"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_5ml5y"]
-animation = &"RESET"
-
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_x4d08"]
 animation = &"run"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_clntu"]
-animation = &"run"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ebckg"]
-animation = &"run_left"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_vonkp"]
-animation = &"run_left"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_t58yn"]
-animation = &"idle"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_hhj44"]
-animation = &"run_left"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_5rmb7"]
-animation = &"idle"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_cpsng"]
 animation = &"run"
 
 [sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_kyd1n"]
@@ -945,33 +785,9 @@ blend_point_2/node = SubResource("AnimationNodeAnimation_x4d08")
 blend_point_2/pos = Vector2(1, 0)
 blend_point_3/node = SubResource("AnimationNodeAnimation_clntu")
 blend_point_3/pos = Vector2(0, 1)
-blend_point_4/node = SubResource("AnimationNodeAnimation_ebckg")
-blend_point_4/pos = Vector2(-1, 0)
-blend_point_5/node = SubResource("AnimationNodeAnimation_vonkp")
-blend_point_5/pos = Vector2(-1, 0)
-blend_point_6/node = SubResource("AnimationNodeAnimation_t58yn")
-blend_point_6/pos = Vector2(0, 1)
-blend_point_7/node = SubResource("AnimationNodeAnimation_hhj44")
-blend_point_7/pos = Vector2(-1, 0)
-blend_point_8/node = SubResource("AnimationNodeAnimation_5rmb7")
-blend_point_8/pos = Vector2(0, 1)
-blend_point_9/node = SubResource("AnimationNodeAnimation_cpsng")
-blend_point_9/pos = Vector2(1, 0)
-blend_point_10/node = SubResource("AnimationNodeAnimation_s7y3p")
-blend_point_10/pos = Vector2(0, -1)
-blend_point_11/node = SubResource("AnimationNodeAnimation_lg4eq")
-blend_point_11/pos = Vector2(-1, 0)
-blend_point_12/node = SubResource("AnimationNodeAnimation_7rr3p")
-blend_point_12/pos = Vector2(0, 1)
-blend_point_13/node = SubResource("AnimationNodeAnimation_5ml5y")
-blend_point_13/pos = Vector2(0, -1)
 blend_mode = 1
 
 [sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_x5j8k"]
-<<<<<<< HEAD
-graph_offset = Vector2(-69.2314, 115.529)
-=======
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 nodes/TimeScale/node = SubResource("AnimationNodeTimeScale_o0wsr")
 nodes/TimeScale/position = Vector2(538, 320)
 nodes/output/position = Vector2(780, 200)
@@ -996,11 +812,7 @@ advance_mode = 2
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_i7085"]
 states/idle/node = SubResource("AnimationNodeBlendTree_rlaym")
-<<<<<<< HEAD
-states/idle/position = Vector2(417, 36)
-=======
 states/idle/position = Vector2(417, 37)
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 states/jump/node = SubResource("AnimationNodeAnimation_ntnki")
 states/jump/position = Vector2(663, 83)
 states/run/node = SubResource("AnimationNodeBlendTree_x5j8k")
@@ -1034,8 +846,4 @@ anim_player = NodePath("../AnimationPlayer")
 parameters/idle/TimeScale/scale = 1.0
 parameters/idle/idle_bs2d/blend_position = Vector2(-1, -0.00305808)
 parameters/run/TimeScale/scale = 1.7
-<<<<<<< HEAD
-parameters/run/run_bs2d/blend_position = Vector2(-1, -0.026455)
-=======
 parameters/run/run_bs2d/blend_position = Vector2(0, 0)
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
