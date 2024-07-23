@@ -25,10 +25,7 @@ var animTree_state_keys = [
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
-<<<<<<< HEAD
 var isAttacking = false
-=======
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 
 func _physics_process(delta):
 	move(delta)
@@ -41,13 +38,7 @@ func _physics_process(delta):
 	elif state == JUMP and is_on_floor():
 		state = IDLE
 	
-<<<<<<< HEAD
 
-=======
-	if Input.is_action_just_pressed("jump") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-		state = JUMP
->>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 
 func move(delta):
 	var input_vector = Input.get_vector("move_left", "move_right", "move_up", "move_down")
