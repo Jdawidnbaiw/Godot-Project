@@ -102,6 +102,7 @@
 [ext_resource type="Texture2D" uid="uid://ila53cy4n43p" path="res://player/Run/HeroKnight_Run_8.png" id="99_1efrm"]
 [ext_resource type="Texture2D" uid="uid://b40h8qi6tyvbm" path="res://player/Run/HeroKnight_Run_9.png" id="100_86bfq"]
 [ext_resource type="Texture2D" uid="uid://d3553noeltkmq" path="res://player/WallSlide/HeroKnight_Slide_0.png" id="101_e4ik5"]
+<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://cwydyww4iexan" path="res://player/Run_left/HeroKnight_Run_1.png" id="102_6t4em"]
 [ext_resource type="Texture2D" uid="uid://bd7wp0td8rwg7" path="res://player/WallSlide/HeroKnight_Slide_1.png" id="102_rer58"]
 [ext_resource type="Texture2D" uid="uid://bfuq46gm6xvwq" path="res://player/WallSlide/HeroKnight_Slide_2.png" id="103_i5bgn"]
@@ -115,6 +116,12 @@
 [ext_resource type="Texture2D" uid="uid://jad3smxq0hv6" path="res://player/Run_left/HeroKnight_Run_7.png" id="108_05c2v"]
 [ext_resource type="Texture2D" uid="uid://kf2hlwkyj5gw" path="res://player/Run_left/HeroKnight_Run_8.png" id="109_hnqtc"]
 [ext_resource type="Texture2D" uid="uid://dukq6k71xkyt0" path="res://player/Run_left/HeroKnight_Run_9.png" id="110_8s6i7"]
+=======
+[ext_resource type="Texture2D" uid="uid://bd7wp0td8rwg7" path="res://player/WallSlide/HeroKnight_Slide_1.png" id="102_rer58"]
+[ext_resource type="Texture2D" uid="uid://bfuq46gm6xvwq" path="res://player/WallSlide/HeroKnight_Slide_2.png" id="103_i5bgn"]
+[ext_resource type="Texture2D" uid="uid://o5mc7qri28xi" path="res://player/WallSlide/HeroKnight_Slide_3.png" id="104_iqdcn"]
+[ext_resource type="Texture2D" uid="uid://srhc5wr8mrea" path="res://player/WallSlide/HeroKnight_Slide_4.png" id="105_c0umv"]
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_h1was"]
 animations = [{
@@ -431,6 +438,11 @@ animations = [{
 "name": &"ledgegrab",
 "speed": 10.0
 }, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("82_ssokf")
@@ -500,6 +512,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+<<<<<<< HEAD
 "texture": ExtResource("102_6t4em")
 }, {
 "duration": 1.0,
@@ -532,6 +545,8 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+=======
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf
 "texture": ExtResource("101_e4ik5")
 }, {
 "duration": 1.0,
@@ -698,7 +713,11 @@ tracks/1/keys = {
 [sub_resource type="Animation" id="Animation_nnsq6"]
 resource_name = "jump"
 length = 0.3
+<<<<<<< HEAD
 loop_mode = 2
+=======
+loop_mode = 1
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -726,7 +745,10 @@ tracks/1/keys = {
 
 [sub_resource type="Animation" id="Animation_kmw4l"]
 resource_name = "run"
+<<<<<<< HEAD
 loop_mode = 1
+=======
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -752,6 +774,7 @@ tracks/1/keys = {
 "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 }
 
+<<<<<<< HEAD
 [sub_resource type="Animation" id="Animation_26p5x"]
 resource_name = "run_left"
 length = 0.9
@@ -781,6 +804,8 @@ tracks/1/keys = {
 "values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
 }
 
+=======
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_l7hdy"]
 _data = {
 "RESET": SubResource("Animation_hwyrt"),
@@ -789,8 +814,12 @@ _data = {
 "attack3": SubResource("Animation_4leaw"),
 "idle": SubResource("Animation_2dju3"),
 "jump": SubResource("Animation_nnsq6"),
+<<<<<<< HEAD
 "run": SubResource("Animation_kmw4l"),
 "run_left": SubResource("Animation_26p5x")
+=======
+"run": SubResource("Animation_kmw4l")
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf
 }
 
 [sub_resource type="AnimationNodeTimeScale" id="AnimationNodeTimeScale_vj3qi"]
@@ -855,7 +884,10 @@ blend_point_3/pos = Vector2(0, 1)
 blend_mode = 1
 
 [sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_x5j8k"]
+<<<<<<< HEAD
 graph_offset = Vector2(16, 135)
+=======
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf
 nodes/TimeScale/node = SubResource("AnimationNodeTimeScale_o0wsr")
 nodes/TimeScale/position = Vector2(538, 320)
 nodes/output/position = Vector2(780, 200)

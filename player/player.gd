@@ -9,7 +9,6 @@ var state = IDLE
 
 @onready var animationTree = $AnimationTree
 @onready var state_machine = animationTree["parameters/playback"]
-@onready var animation = $AnimationPlayer
 
 var blend_position : Vector2 = Vector2.ZERO
 var blend_pos_paths = [
@@ -25,7 +24,10 @@ var animTree_state_keys = [
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
+<<<<<<< HEAD
 var isAttacking = false
+=======
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf
 
 func _physics_process(delta):
 	move(delta)
@@ -38,7 +40,13 @@ func _physics_process(delta):
 	elif state == JUMP and is_on_floor():
 		state = IDLE
 	
+<<<<<<< HEAD
 
+=======
+	if Input.is_action_just_pressed("jump") and is_on_floor():
+		velocity.y = JUMP_VELOCITY
+		state = JUMP
+>>>>>>> f6078e0440579b5aa07dcbe5e809a50dddac9bcf
 
 func move(delta):
 	var input_vector = Input.get_vector("move_left", "move_right", "move_up", "move_down")
@@ -49,14 +57,6 @@ func move(delta):
 		state = RUN
 		apply_movement(input_vector * ACCELERATION * delta)
 		blend_position = input_vector
-		
-	if Input.is_action_just_pressed("jump") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-		state = JUMP
-		
-	if Input.is_action_just_pressed("attack1") and is_on_floor():
-		animation.play("attack1")
-		
 	move_and_slide()
 
 func apply_friction(amount) -> void:

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1hiqbycfojay"
-path="res://.godot/imported/HeroKnight_Run_4.png-294b80c3adba7b73e0afed43918d1178.ctex"
+uid="uid://c54u1c0aib2sv"
+path="res://.godot/imported/HeroKnight_Run_2.png-90032f0ebc45cc7b391e50c99263a26f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player/Run_left/HeroKnight_Run_4.png"
-dest_files=["res://.godot/imported/HeroKnight_Run_4.png-294b80c3adba7b73e0afed43918d1178.ctex"]
+source_file="res://player/Run_Back/HeroKnight_Run_2.png"
+dest_files=["res://.godot/imported/HeroKnight_Run_2.png-90032f0ebc45cc7b391e50c99263a26f.ctex"]
 
 [params]
 
