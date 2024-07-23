@@ -1,3 +1,6 @@
 res://levels/level.tscn
+<<<<<<< HEAD
 res://player/player.gd
+=======
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 res://player/player.tscn

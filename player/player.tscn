@@ -1,4 +1,4 @@
-[gd_scene load_steps=167 format=3 uid="uid://bfqpybns7d45p"]
+[gd_scene load_steps=140 format=3 uid="uid://bfqpybns7d45p"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_8j0m4"]
 [ext_resource type="Texture2D" uid="uid://cn7fpxsdv30qy" path="res://player/Attack1/HeroKnight_Attack1_0.png" id="1_cmo45"]
@@ -102,6 +102,7 @@
 [ext_resource type="Texture2D" uid="uid://ila53cy4n43p" path="res://player/Run/HeroKnight_Run_8.png" id="99_1efrm"]
 [ext_resource type="Texture2D" uid="uid://b40h8qi6tyvbm" path="res://player/Run/HeroKnight_Run_9.png" id="100_86bfq"]
 [ext_resource type="Texture2D" uid="uid://d3553noeltkmq" path="res://player/WallSlide/HeroKnight_Slide_0.png" id="101_e4ik5"]
+<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://71wag3cuyd4d" path="res://player/Run_left/HeroKnight_Run_1.png" id="102_bsqbl"]
 [ext_resource type="Texture2D" uid="uid://bd7wp0td8rwg7" path="res://player/WallSlide/HeroKnight_Slide_1.png" id="102_rer58"]
 [ext_resource type="Texture2D" uid="uid://bfuq46gm6xvwq" path="res://player/WallSlide/HeroKnight_Slide_2.png" id="103_i5bgn"]
@@ -115,6 +116,12 @@
 [ext_resource type="Texture2D" uid="uid://dvps5brevx665" path="res://player/Run_left/HeroKnight_Run_7.png" id="108_ybxy4"]
 [ext_resource type="Texture2D" uid="uid://1qhwxsuwoh" path="res://player/Run_left/HeroKnight_Run_8.png" id="109_pgne7"]
 [ext_resource type="Texture2D" uid="uid://b0sao6wsmgdge" path="res://player/Run_left/HeroKnight_Run_9.png" id="110_0fslb"]
+=======
+[ext_resource type="Texture2D" uid="uid://bd7wp0td8rwg7" path="res://player/WallSlide/HeroKnight_Slide_1.png" id="102_rer58"]
+[ext_resource type="Texture2D" uid="uid://bfuq46gm6xvwq" path="res://player/WallSlide/HeroKnight_Slide_2.png" id="103_i5bgn"]
+[ext_resource type="Texture2D" uid="uid://o5mc7qri28xi" path="res://player/WallSlide/HeroKnight_Slide_3.png" id="104_iqdcn"]
+[ext_resource type="Texture2D" uid="uid://srhc5wr8mrea" path="res://player/WallSlide/HeroKnight_Slide_4.png" id="105_c0umv"]
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_h1was"]
 animations = [{
@@ -500,6 +507,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+<<<<<<< HEAD
 "texture": ExtResource("102_bsqbl")
 }, {
 "duration": 1.0,
@@ -532,6 +540,8 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+=======
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 "texture": ExtResource("101_e4ik5")
 }, {
 "duration": 1.0,
@@ -698,7 +708,11 @@ tracks/1/keys = {
 [sub_resource type="Animation" id="Animation_nnsq6"]
 resource_name = "jump"
 length = 0.3
+<<<<<<< HEAD
 loop_mode = 2
+=======
+loop_mode = 1
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -726,7 +740,10 @@ tracks/1/keys = {
 
 [sub_resource type="Animation" id="Animation_kmw4l"]
 resource_name = "run"
+<<<<<<< HEAD
 loop_mode = 1
+=======
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -752,6 +769,7 @@ tracks/1/keys = {
 "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 }
 
+<<<<<<< HEAD
 [sub_resource type="Animation" id="Animation_p12sj"]
 resource_name = "run_left"
 length = 0.9
@@ -781,6 +799,8 @@ tracks/1/keys = {
 "values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
 }
 
+=======
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_l7hdy"]
 _data = {
 "RESET": SubResource("Animation_hwyrt"),
@@ -789,8 +809,12 @@ _data = {
 "attack3": SubResource("Animation_4leaw"),
 "idle": SubResource("Animation_2dju3"),
 "jump": SubResource("Animation_nnsq6"),
+<<<<<<< HEAD
 "run": SubResource("Animation_kmw4l"),
 "run_left": SubResource("Animation_p12sj")
+=======
+"run": SubResource("Animation_kmw4l")
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 }
 
 [sub_resource type="AnimationNodeTimeScale" id="AnimationNodeTimeScale_vj3qi"]
@@ -854,7 +878,10 @@ blend_point_10/pos = Vector2(0, -1)
 blend_mode = 1
 
 [sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_rlaym"]
+<<<<<<< HEAD
 graph_offset = Vector2(5, 77)
+=======
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 nodes/TimeScale/node = SubResource("AnimationNodeTimeScale_vj3qi")
 nodes/TimeScale/position = Vector2(569, 270)
 nodes/idle_bs2d/node = SubResource("AnimationNodeBlendSpace2D_wvwwe")
@@ -941,7 +968,10 @@ blend_point_13/pos = Vector2(0, -1)
 blend_mode = 1
 
 [sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_x5j8k"]
+<<<<<<< HEAD
 graph_offset = Vector2(-69.2314, 115.529)
+=======
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 nodes/TimeScale/node = SubResource("AnimationNodeTimeScale_o0wsr")
 nodes/TimeScale/position = Vector2(538, 320)
 nodes/output/position = Vector2(780, 200)
@@ -966,7 +996,11 @@ advance_mode = 2
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_i7085"]
 states/idle/node = SubResource("AnimationNodeBlendTree_rlaym")
+<<<<<<< HEAD
 states/idle/position = Vector2(417, 36)
+=======
+states/idle/position = Vector2(417, 37)
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
 states/jump/node = SubResource("AnimationNodeAnimation_ntnki")
 states/jump/position = Vector2(663, 83)
 states/run/node = SubResource("AnimationNodeBlendTree_x5j8k")
@@ -1000,4 +1034,8 @@ anim_player = NodePath("../AnimationPlayer")
 parameters/idle/TimeScale/scale = 1.0
 parameters/idle/idle_bs2d/blend_position = Vector2(-1, -0.00305808)
 parameters/run/TimeScale/scale = 1.7
+<<<<<<< HEAD
 parameters/run/run_bs2d/blend_position = Vector2(-1, -0.026455)
+=======
+parameters/run/run_bs2d/blend_position = Vector2(0, 0)
+>>>>>>> 8f46f1281d7f1923f0a63e325f317e0d8a734bee
